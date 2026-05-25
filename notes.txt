@@ -1,0 +1,20 @@
+Dracula at night - sqlite viewer - vscode-icons
+
+-----------------------------------------------------------------------
+python -m venv venv   			    ->  Cria o ambiente virtual
+.\venv\Scripts\Activate  		    ->  Ativar o ambiente virtual
+pip install django			        ->  Instalar o django no ambiente virtual
+django-admin --version			    ->  Saber a versão do django
+django-admin startproject app .	    ->  Iniciar o projeto app "usar app(core) para o coração do projeto"
+python manage.py runserver		    ->  Subir o servidor
+python manage.py startapp cars		->  Criar a app cars
+
+pip freeze > requirements.txt		->  Salva todas as dependências instaladas
+
+Na outra máquina, clonar o repositório e criar o ambiente virtual, porém vai instalar as dependências:
+pip install -r requirements.txt
+
+python manage.py makemigrations     ->  Gerar o arquivo de scripts de banco de dados (toda vez que escrever o script de banco de dados)
+python manage.py migrate            ->  Pega todas as estrutura do banco de dados
+
+python manage.py createsuperuser    ->  Criar o superusuário (pycodebr)
