@@ -1,6 +1,4 @@
-Dracula at night - sqlite viewer - vscode-icons
 
------------------------------------------------------------------------
 python -m venv venv   			    ->  Cria o ambiente virtual
 .\venv\Scripts\Activate  		    ->  Ativar o ambiente virtual
 pip install django			        ->  Instalar o django no ambiente virtual
