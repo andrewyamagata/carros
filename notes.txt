@@ -16,3 +16,5 @@ python manage.py makemigrations     ->  Gerar o arquivo de scripts de banco de d
 python manage.py migrate            ->  Pega todas as estrutura do banco de dados
 
 python manage.py createsuperuser    ->  Criar o superusuário (pycodebr)
+
+python -m pip install Pillow        ->  Instalar para poder manipular Imagens
